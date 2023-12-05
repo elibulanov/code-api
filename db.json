@@ -1,0 +1,30 @@
+{
+    "questions": [
+      {
+        "id": 1,
+        "problem": "Write a function that reverses a string.",
+        "solution": "function reverseString(str) {\n  return str.split('').reverse().join('');\n}"
+      },
+      {
+        "id": 2,
+        "problem": "Write a function to check if a number is prime.",
+        "solution": "function isPrime(num) {\n  for(let i = 2; i < num; i++)\n    if(num % i === 0) return false;\n  return num > 1;\n}"
+      },
+      {
+        "id": 3,
+        "problem": "Write a function that converts an array of numbers to an array of their squares.",
+        "solution": "function squareArray(arr) {\n  return arr.map(num => num * num);\n}"
+      },
+      {
+        "id": 4,
+        "problem": "Write a function that finds the largest number in an array.",
+        "solution": "function findLargest(arr) {\n  return Math.max(...arr);\n}"
+      },
+      {
+        "id": 5,
+        "problem": "Write a function to calculate the factorial of a number.",
+        "solution": "function factorial(n) {\n  if (n === 0 || n === 1) return 1;\n  return n * factorial(n - 1);\n}"
+      }
+    ]
+  }
+  
